@@ -1,0 +1,25 @@
+{
+  "name": "dates",
+  "version": "1.0.0",
+  "description": "A simple package of date utilities",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ",
+    "push": "clasp push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobyHFerguson/Dates.git"
+  },
+  "author": "Toby H Ferguson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TobyHFerguson/Dates/issues"
+  },
+  "homepage": "https://github.com/TobyHFerguson/Dates#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0",
+    "sinon": "^15.2.0"
+  }
+}
