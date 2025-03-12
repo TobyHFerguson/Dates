@@ -94,10 +94,10 @@ describe("date tests", () => {
             let d = new Date(n);
             expect(dates.T24(d)).toEqual("10:00");
         });
-        test('should produce 10:00 from the string "2023-06-01T18:00:00.000Z"', () => {
+        test('should produce 10:00 from the string "2023-03-11T18:00:00.000Z"', () => {
             let n = "2023-06-01T18:00:00.000Z";
             let d = new Date(n);
-            expect(dates.T24(d)).toEqual("10:00");
+            expect(dates.T24(d)).toEqual("11:00");
         });
         test("should produce a NaN when the date is busted", () => {
             expect(dates.T24(() => { })).toBeNaN();
