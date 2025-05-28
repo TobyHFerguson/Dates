@@ -80,7 +80,7 @@ function T12(d) {
 function add(d, days) {
       let a = convert(d);
       if (isFinite(a)) {
-        a.setDate(d.getDate() + days);
+        a.setDate(a.getDate() + days);
       }
       return a;
 }
